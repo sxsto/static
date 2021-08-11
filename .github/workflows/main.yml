@@ -1,4 +1,4 @@
-name: sync-cdle/jd_study
+name: sync-cdle/static
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
 
     - name: Clone main
       run: |
-        git clone -b main https://github.com/cdle/jd_study.git main
+        git clone -b main https://github.com/cdle/static.git main
 
     - name: Push main
       uses: ad-m/github-push-action@master
